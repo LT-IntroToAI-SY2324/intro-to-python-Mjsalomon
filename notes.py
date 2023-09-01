@@ -5,6 +5,7 @@
 # types
 
 # str
+
 y = "I love Computer Science!"
 
 # numbers
@@ -12,10 +13,12 @@ mynum = 47
 anothernum = 47.7
 print(type(mynum))
 print(type(anothernum))
+print(type(y))
 
 # bools - True, False
 flag = True
 print(flag)
+
 
 # lists - can hold a list of items of any type
 lane_tech = ["chicago", "high school", 1908, 60618, "addison/western"]
