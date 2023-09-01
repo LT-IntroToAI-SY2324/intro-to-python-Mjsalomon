@@ -24,8 +24,8 @@ print(flag)
 lane_tech = ["chicago", "high school", 1908, 60618, "addison/western"]
 print(lane_tech.reverse())
 print(lane_tech)
-z = lane_tech.pop()
-print(z)
+# z = lane_tech.pop()
+# print(z)
 
 
 # Indices
@@ -39,7 +39,7 @@ print(lane_tech[:3])
 print(lane_tech[1:])
 print(lane_tech[:])
 
-# Functions
+Functions
 
 # defining a function
 def hello_world():
