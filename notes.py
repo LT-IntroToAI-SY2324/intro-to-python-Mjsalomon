@@ -39,7 +39,7 @@ print(lane_tech[:3])
 print(lane_tech[1:])
 print(lane_tech[:])
 
-Functions
+#Functions
 
 # defining a function
 def hello_world():
