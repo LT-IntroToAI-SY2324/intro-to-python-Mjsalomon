@@ -73,6 +73,7 @@ for el in lst:
 
 # For Loop Template 2
 # do something n times
+print(list(range(5)))
 for i in range(5):
     print("Intro to AI")
 
@@ -86,7 +87,9 @@ print(lst)
 
 # Dictionaries
 
-dict = {"name": "rob", "age": 30}
+dict = {"name": "rob", "age": 40}
+print(dict)
+print(dict["name"])
 print(dict["age"])
 
 # Random
@@ -98,7 +101,7 @@ print(dinner)
 
 # f String
 age = 25
-# print("Mary is " + age + " years old")
+#print("Mary is " + age + " years old")
 print(f"Mary is {age} years old")
 
 
