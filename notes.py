@@ -5,6 +5,7 @@
 # types
 
 # str
+
 y = "I love Computer Science!"
 
 # numbers
@@ -12,17 +13,19 @@ mynum = 47
 anothernum = 47.7
 print(type(mynum))
 print(type(anothernum))
+print(type(y))
 
 # bools - True, False
 flag = True
 print(flag)
 
+
 # lists - can hold a list of items of any type
 lane_tech = ["chicago", "high school", 1908, 60618, "addison/western"]
 print(lane_tech.reverse())
 print(lane_tech)
-z = lane_tech.pop()
-print(z)
+# z = lane_tech.pop()
+# print(z)
 
 
 # Indices
@@ -36,7 +39,7 @@ print(lane_tech[:3])
 print(lane_tech[1:])
 print(lane_tech[:])
 
-# Functions
+#Functions
 
 # defining a function
 def hello_world():
@@ -70,6 +73,7 @@ for el in lst:
 
 # For Loop Template 2
 # do something n times
+print(list(range(5)))
 for i in range(5):
     print("Intro to AI")
 
@@ -83,7 +87,9 @@ print(lst)
 
 # Dictionaries
 
-dict = {"name": "rob", "age": 30}
+dict = {"name": "rob", "age": 40}
+print(dict)
+print(dict["name"])
 print(dict["age"])
 
 # Random
@@ -95,7 +101,7 @@ print(dinner)
 
 # f String
 age = 25
-# print("Mary is " + age + " years old")
+#print("Mary is " + age + " years old")
 print(f"Mary is {age} years old")
 
 
