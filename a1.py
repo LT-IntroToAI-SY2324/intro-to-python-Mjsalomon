@@ -119,6 +119,7 @@ def mean(lst: List[int]) -> float:
         sum+= x
 
     return sum/len(lst)
+#return sum_list(lst)len(lst)
 
     
 
